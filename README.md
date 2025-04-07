@@ -8,7 +8,6 @@ A deep learning project that classifies human facial expressions into seven cate
 - Image preprocessing and augmentation using `ImageDataGenerator`
 - Trained on FER-2013 facial expression dataset
 - Handles class imbalance using class weights
-- Achieved  accuracy on validation data
 
 ## 🧠 Emotion Classes
 
