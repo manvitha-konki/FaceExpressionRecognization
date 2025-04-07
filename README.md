@@ -8,7 +8,7 @@ A deep learning project that classifies human facial expressions into seven cate
 - Image preprocessing and augmentation using `ImageDataGenerator`
 - Trained on FER-2013 facial expression dataset
 - Handles class imbalance using class weights
-- Achieved high accuracy on validation data
+- Achieved  accuracy on validation data
 
 ## 🧠 Emotion Classes
 
@@ -32,3 +32,18 @@ A deep learning project that classifies human facial expressions into seven cate
 - OpenCV
 - NumPy, Matplotlib
 - EfficientNet (transfer learning)
+
+## 📊 Results
+- **Best Validation Accuracy:** 61.7%
+- **Final Validation Accuracy:** 60.5%
+- **Test Accuracy:** 55%
+- **Top Performing Classes:**  
+  - **Happy:** F1-score = 0.79  
+  - **Surprise:** F1-score = 0.67  
+
+## 📌 Future Improvements
+- Trying to improve Accuracy further
+- Improve performance on underperforming classes (e.g., fear, disgust)
+- Integrate real-time emotion detection using webcam (OpenCV)
+- Deploy model with Streamlit or Flask for demo
+
